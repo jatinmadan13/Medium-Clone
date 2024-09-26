@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    @apply m-0 p-0 box-border;
+    margin: 0;    
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.size{
+    @apply w-[95%] md:w-[90%] mx-auto;
+}
